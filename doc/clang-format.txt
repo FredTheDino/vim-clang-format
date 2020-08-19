@@ -139,7 +139,7 @@ g:clang_format#style_options                      *g:clang_format#style_options*
     example, using {} in short if statement or not, use C++11 feature or not,
     access modifier offset and so on.  This value is a |Dictionary| whose key
     and value are |String| or |Number|.
-    The key and the value are options passed to clang-format's -stryle option.
+    The key and the value are options passed to clang-format's -style option.
     You can look up them by executing `clang-format -dump-config` command.  If
     you want to know all of the keys and values, clang-format's documentation
     and API documentation is useful.  In paticular, the following link is
